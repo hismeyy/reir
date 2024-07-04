@@ -13,8 +13,8 @@ config:
       text: 不积跬步无以至千里，不积小流无以成江海。
       actions:
         -
-          text: 学习路线
-          link: /学习路线/
+          text: 开启Rust之旅
+          link: /学习/入门/
           theme: brand
         -
           text: Github
