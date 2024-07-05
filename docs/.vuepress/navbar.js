@@ -18,6 +18,7 @@ export default defineNavbarConfig([
     {
         text: '其他教程',
         items: [
+            {text: 'Rust官方文档', link: 'https://rustwiki.org/'},
             {text: 'Rust圣经', link: 'https://course.rs/about-book.html'},
         ],
     },
