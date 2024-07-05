@@ -1,0 +1,14 @@
+:root {
+    .vp-footer{
+        display: none;
+    }
+
+
+
+}
+
+.dark {
+    .vp-footer{
+        display: none;
+    }
+}

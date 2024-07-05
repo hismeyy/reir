@@ -14,7 +14,7 @@ config:
       actions:
         -
           text: 开启Rust之旅
-          link: /学习/入门/
+          link: /study-beginner/
           theme: brand
         -
           text: Github
