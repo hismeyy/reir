@@ -26,6 +26,86 @@ Rust 语言是一种高效、可靠的通用高级语言。其高效不仅限于
 
 ## rustup
 
+```
+The Rust toolchain installer
+
+Usage: rustup [OPTIONS] [+toolchain] [COMMAND]
+
+Commands:
+  show         Show the active and installed toolchains or profiles
+  update       Update Rust toolchains and rustup
+  check        Check for updates to Rust toolchains and rustup
+  default      Set the default toolchain
+  toolchain    Modify or query the installed toolchains
+  target       Modify a toolchain's supported targets
+  component    Modify a toolchain's installed components
+  override     Modify toolchain overrides for directories
+  run          Run a command with an environment configured for a given toolchain
+  which        Display which binary will be run for a given command
+  doc          Open the documentation for the current toolchain
+  self         Modify the rustup installation
+  set          Alter rustup settings
+  completions  Generate tab-completion scripts for your shell
+  help         Print this message or the help of the given subcommand(s)
+
+Arguments:
+  [+toolchain]  release channel (e.g. +stable) or custom toolchain to set override
+
+Options:
+  -v, --verbose  Enable verbose output
+  -q, --quiet    Disable progress output
+  -h, --help     Print help
+  -V, --version  Print version
+
+Discussion:
+    Rustup installs The Rust Programming Language from the official
+    release channels, enabling you to easily switch between stable,
+    beta, and nightly compilers and keep them updated. It makes
+    cross-compiling simpler with binary builds of the standard library
+    for common platforms.
+
+    If you are new to Rust consider running `rustup doc --book` to
+    learn Rust.
+```
+
+```
+Rust 工具链安装程序
+
+使用方法: rustup [选项] [+工具链] [命令]
+
+命令列表:
+  show         显示当前激活和已安装的工具链或配置文件
+  update       更新 Rust 工具链和 rustup
+  check        检查 Rust 工具链和 rustup 的更新
+  default      设置默认工具链
+  toolchain    修改或查询已安装的工具链
+  target       修改工具链支持的目标平台
+  component    修改工具链已安装的组件
+  override     修改目录的工具链覆盖
+  run          在配置了指定工具链的环境中运行命令
+  which        显示运行指定命令的二进制文件
+  doc          打开当前工具链的文档
+  self         修改 rustup 安装
+  set          更改 rustup 设置
+  completions  为你的 shell 生成自动补全脚本
+  help         打印此消息或指定子命令的帮助信息
+
+参数:
+  [+工具链]  发布频道（例如 +stable）或自定义工具链来设置覆盖
+
+选项:
+  -v, --verbose  启用详细输出
+  -q, --quiet    禁用进度输出
+  -h, --help     打印帮助信息
+  -V, --version  打印版本信息
+
+讨论:
+	Rustup 从官方发布渠道安装 Rust 编程语言，允许你轻松地在稳定版、测试版
+	和每夜编译版之间切换并保持更新。它使交叉编译更简单，提供常见平台的标准库
+	二进制构建。
+
+    如果你是 Rust 新手，可以运行 `rustup doc --book` 来学习 Rust。
+```
 
 
 ## cargo
