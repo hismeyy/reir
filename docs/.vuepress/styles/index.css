@@ -3,12 +3,17 @@
         display: none;
     }
 
-
-
+    .vp-back-to-top{
+        margin-bottom: 80px;
+    }
 }
 
 .dark {
     .vp-footer{
         display: none;
+    }
+
+    .vp-back-to-top{
+        margin-bottom: 80px;
     }
 }
