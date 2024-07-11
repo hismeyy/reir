@@ -6,7 +6,7 @@ export default definePlumeNotesItemConfig({
     sidebar: [
         {
             dir: '入门',
-            items: ['1_Rust环境安装', '2_Rust简介', '3_编程通用概念'],
+            items: ['1_Rust环境安装', '2_Rust简介', '3_编程通用概念', '4_所有权'],
         },
     ]
 })
